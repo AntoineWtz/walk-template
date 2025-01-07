@@ -1,12 +1,12 @@
 import React from 'react';
-import homepage1 from '../assets/img/homepage1.jpg';
-import homepage2 from '../assets/img/homepage2.jpg';
-import homepage3 from '../assets/img/homepage3.jpg';
-import homepage4 from '../assets/img/homepage4.jpg';
-import sliceImg1 from '../assets/img/slice1.jpg';
-import sliceImg2 from '../assets/img/slice2.jpg';
-import sliceImg3 from '../assets/img/slice3.jpg';
-import sliceImg4 from '../assets/img/slice4.jpg';
+import homepage1 from '../assets/img/homepage/homepage1.jpg';
+import homepage2 from '../assets/img/homepage/homepage2.jpg';
+import homepage3 from '../assets/img/homepage/homepage3.jpg';
+import homepage4 from '../assets/img/homepage/homepage4.jpg';
+import sliceImg1 from '../assets/img/homepage/slice1.jpg';
+import sliceImg2 from '../assets/img/homepage/slice2.jpg';
+import sliceImg3 from '../assets/img/homepage/slice3.jpg';
+import sliceImg4 from '../assets/img/homepage/slice4.jpg';
 import logo from '../assets/img/logo-walk-monoblack.png';
 
 import { Book, Newspaper, ShoppingBagIcon, StoreIcon } from 'lucide-react';
@@ -27,19 +27,19 @@ const Home = () => {
             {/* Texte, boutons, et image2 */}
             <div className="flex flex-col items-center bg-white p-6 shadow rounded-2xl md:col-span-8 md:row-span-4 md:flex-row">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0 pr-0 md:pr-6">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-4">
                         Collection Automne/Hiver 2024
                     </h2>
-                    <div className="flex space-x-4">
+                    <div className="flex mx-auto justify-center lg:justify-start space-x-4">
                         <a
-                            href="/shop/fw24"
-                            className="px-6 py-3 bg-black text-white rounded-xl hover:bg-gray-700"
+                            href="/"
+                            className="px-4 py-2 bg-black text-white rounded-xl hover:bg-gray-700"
                         >
                             La Collection
                         </a>
                         <a
-                            href="/lookbook/fw24"
-                            className="px-6 py-3 border border-black text-black rounded-xl hover:bg-gray-100"
+                            href="/"
+                            className="px-4 py-2 border border-black text-black rounded-xl hover:bg-gray-100"
                         >
                             Lookbook FW24
                         </a>
