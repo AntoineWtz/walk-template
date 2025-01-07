@@ -1,68 +1,135 @@
 import React from 'react';
-import homepage1 from '../assets/img/homepage1.jpg';
-import homepage2 from '../assets/img/homepage2.jpg';
-import homepage3 from '../assets/img/homepage3.jpg';
-import homepage4 from '../assets/img/homepage4.jpg';
+import homepage1 from '../assets/img/homepage/homepage1.jpg';
+import homepage2 from '../assets/img/homepage/homepage2.jpg';
+import homepage3 from '../assets/img/homepage/homepage3.jpg';
+import homepage4 from '../assets/img/homepage/homepage4.jpg';
+import sliceImg1 from '../assets/img/homepage/slice1.jpg';
+import sliceImg2 from '../assets/img/homepage/slice2.jpg';
+import sliceImg3 from '../assets/img/homepage/slice3.jpg';
+import sliceImg4 from '../assets/img/homepage/slice4.jpg';
+import logo from '../assets/img/logo-walk-monoblack.png';
+
+import { Book, Newspaper, ShoppingBagIcon, StoreIcon } from 'lucide-react';
 
 const Home = () => {
     return (
-        <div className="container mx-auto grid grid-cols-12 gap-6 px-6 py-3">
-            {/* Première grande image (4 colonnes de gauche) */}
-            <div className="col-span-4 row-span-2 overflow-hidden rounded-lg shadow-lg">
+        <div className="container mx-auto justify-center grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-12 md:grid-rows-16 md:gap-12">
+            {/* Première grande image */}
+            <div className="overflow-hidden rounded-2xl shadow md:col-span-4 md:row-span-6">
                 <img
                     src={homepage1}
-                    alt="Collection Homme"
-                    className="w-full h-full object-cover"
+                    alt="Collection Le Meurice"
+                    loading="lazy"
+                    className="w-full h-full object-cover rounded-2xl"
                 />
             </div>
 
-            {/* Texte, boutons, et image2 (8 colonnes de droite, alignés horizontalement) */}
-            <div className="col-span-8 flex items-center bg-white p-6 shadow-md rounded-lg">
-                {/* Texte et boutons */}
-                <div className="flex-1">
-                    <h2 className="text-2xl font-bold mb-4">
-                        Lancement de la collection Automne/Hiver 2024
+            {/* Texte, boutons, et image2 */}
+            <div className="flex flex-col items-center bg-white p-6 shadow rounded-2xl md:col-span-8 md:row-span-4 md:flex-row">
+                <div className="w-full md:w-1/2 mb-4 md:mb-0 pr-0 md:pr-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-4">
+                        Collection Automne/Hiver 2024
                     </h2>
-                    <div className="flex space-x-4">
+                    <div className="flex mx-auto justify-center lg:justify-start space-x-4">
                         <a
-                            href="/shop/fw24"
-                            className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800"
+                            href="/"
+                            className="px-4 py-2 bg-black text-white rounded-xl hover:bg-gray-700"
                         >
-                            La collection
+                            La Collection
                         </a>
                         <a
-                            href="/lookbook/fw24"
-                            className="px-4 py-2 border border-black text-black rounded hover:bg-gray-100"
+                            href="/"
+                            className="px-4 py-2 border border-black text-black rounded-xl hover:bg-gray-100"
                         >
                             Lookbook FW24
                         </a>
                     </div>
                 </div>
-                {/* Image 2 */}
-                <div className="flex-shrink-0 ml-6">
+                <div className="w-full md:w-1/2">
                     <img
                         src={homepage2}
                         alt="Image Automne/Hiver"
-                        className="w-48 h-auto rounded-lg shadow-md"
+                        loading="lazy"
+                        className="w-full h-auto rounded-2xl"
                     />
                 </div>
             </div>
 
-            {/* Troisième image (4 colonnes de droite sous le bloc texte) */}
-            <div className="col-span-4 overflow-hidden rounded-lg shadow-lg">
+            {/* Troisième image */}
+            <div className="overflow-hidden rounded-2xl shadow md:col-start-9 md:col-span-4 md:row-start-5 md:row-span-6">
                 <img
                     src={homepage3}
                     alt="Boutique"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                 />
             </div>
 
-            {/* Quatrième image (carré de 4 colonnes, à gauche de l'image 3) */}
-            <div className="col-span-4 overflow-hidden rounded-lg shadow-lg">
+            {/* Quatrième image */}
+            <div className="overflow-hidden rounded-2xl shadow md:col-start-5 md:col-span-4 md:row-start-5 md:row-span-4">
                 <img
                     src={homepage4}
                     alt="Découvrez nos Survêtements"
+                    loading="lazy"
                     className="w-full h-full object-cover"
+                />
+            </div>
+
+            {/* Carré avec icônes */}
+            <div className="grid grid-cols-2 gap-6 md:gap-12 md:col-span-4 md:row-start-7 md:row-span-4">
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-red-200">
+                    <ShoppingBagIcon size="32" />
+                    <p className="font-semibold">Shop</p>
+                </div>
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-blue-200">
+                    <Book size="32" />
+                    <p className="font-semibold">Lookbook</p>
+                </div>
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-green-200">
+                    <Newspaper size="32" />
+                    <p className="font-semibold">Library</p>
+                </div>
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-orange-200">
+                    <StoreIcon size="32" />
+                    <p className="font-semibold">Boutique</p>
+                </div>
+            </div>
+
+            {/* Rectangle central */}
+            <div className="overflow-hidden bg-white rounded-2xl shadow text-white flex items-center justify-center md:col-start-5 md:col-span-4 md:row-start-9 md:row-span-2">
+                <img
+                    src={logo}
+                    alt="Logo Walk in Paris"
+                    loading='lazy'
+                    className="w-40 h-auto"
+                />
+            </div>
+
+            {/* Deux grandes images côte à côte */}
+            <div className="grid grid-cols-4 gap-6 md:gap-12 md:col-span-12">
+                <img
+                    src={sliceImg1}
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
+                    className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
+                />
+                <img
+                    src={sliceImg2}
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
+                    className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
+                />
+                <img
+                    src={sliceImg3}
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
+                    className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
+                />
+                <img
+                    src={sliceImg4}
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
+                    className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
                 />
             </div>
         </div>
