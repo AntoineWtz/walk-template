@@ -24,33 +24,36 @@ const Home = () => {
 
             {/* Texte, boutons, et image2 (8 colonnes, 4 lignes) */}
             <div className="col-span-8 row-span-4 flex items-center bg-white p-6 shadow rounded-2xl">
-                <div className="flex-1">
-                    <h2 className="text-2xl font-bold mb-4">
+                <div className="w-1/2 pr-6">
+                    <h2 className="text-3xl font-bold mb-6">
                         Collection Automne/Hiver 2024
                     </h2>
                     <div className="flex space-x-4">
                         <a
                             href="/shop/fw24"
-                            className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800"
+                            className="px-6 py-3 bg-black text-white rounded-xl hover:bg-gray-700"
                         >
-                            La collection
+                            La Collection
                         </a>
                         <a
                             href="/lookbook/fw24"
-                            className="px-4 py-2 border border-black text-black rounded-md hover:bg-gray-100"
+                            className="px-6 py-3 border border-black text-black rounded-xl hover:bg-gray-100"
                         >
                             Lookbook FW24
                         </a>
                     </div>
                 </div>
-                <div className="flex-shrink-0 ml-6">
+
+                {/* Image */}
+                <div className="w-1/2">
                     <img
                         src={homepage2}
                         alt="Image Automne/Hiver"
-                        className="w-80 h-auto rounded-2xl"
+                        className="w-full h-auto"
                     />
                 </div>
             </div>
+
 
             {/* Troisième image (4 colonnes à droite, 4 lignes) */}
             <div className="col-start-9 col-span-4 row-start-5 row-span-6 overflow-hidden rounded-2xl shadow">
@@ -92,7 +95,6 @@ const Home = () => {
 
             {/* Sixième rectangle central mid */}
             <div className="col-start-5 col-span-4 row-start-9 row-span-2 overflow-hidden bg-white rounded-2xl shadow text-white flex items-center justify-center">
-                {/* logo-walk-monoblack centré */}
                 <img
                     src={logo}
                     alt="Logo Walk in Paris"
@@ -100,7 +102,7 @@ const Home = () => {
                 />
             </div>
 
-            {/* 2 grandes images rectangles cote à cote  */}
+            {/* 2 grandes images */}
             <div className="row-start-11 col-span-12 row-span-4 flex gap-12">
                 <img
                     src={sliceImg1}
