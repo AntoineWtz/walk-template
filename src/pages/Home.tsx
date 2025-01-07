@@ -19,6 +19,7 @@ const Home = () => {
                 <img
                     src={homepage1}
                     alt="Collection Le Meurice"
+                    loading="lazy"
                     className="w-full h-full object-cover rounded-2xl"
                 />
             </div>
@@ -48,6 +49,7 @@ const Home = () => {
                     <img
                         src={homepage2}
                         alt="Image Automne/Hiver"
+                        loading="lazy"
                         className="w-full h-auto rounded-2xl"
                     />
                 </div>
@@ -58,6 +60,7 @@ const Home = () => {
                 <img
                     src={homepage3}
                     alt="Boutique"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                 />
             </div>
@@ -67,6 +70,7 @@ const Home = () => {
                 <img
                     src={homepage4}
                     alt="Découvrez nos Survêtements"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                 />
             </div>
@@ -96,6 +100,7 @@ const Home = () => {
                 <img
                     src={logo}
                     alt="Logo Walk in Paris"
+                    loading='lazy'
                     className="w-40 h-auto"
                 />
             </div>
@@ -104,22 +109,26 @@ const Home = () => {
             <div className="grid grid-cols-4 gap-6 md:gap-12 md:col-span-12">
                 <img
                     src={sliceImg1}
-                    alt="Slice 1"
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
                     className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
                 />
                 <img
                     src={sliceImg2}
-                    alt="Slice 2"
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
                     className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
                 />
                 <img
                     src={sliceImg3}
-                    alt="Slice 1"
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
                     className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
                 />
                 <img
                     src={sliceImg4}
-                    alt="Slice 2"
+                    alt="Boutique Walk in Paris"
+                    loading='lazy'
                     className="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow"
                 />
             </div>
