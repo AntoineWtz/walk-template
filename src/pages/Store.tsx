@@ -1,8 +1,11 @@
 const Store = () => {
     return (
+        
         <div>
-            <h1>La Boutique</h1>
-        </div>
+            <h1>Store</h1>
+                
+
+    </div>
     );
 };
 
