@@ -21,11 +21,11 @@ const Store = () => {
             </div>
 
             {/* Trois premiers blocs */}
-            {/* Image carrée */}
+            {/*  carrée */}
             <div className="col-span-1 md:col-span-4 md:row-span-4 overflow-hidden rounded-2xl shadow">
                 <img
                     src={storeImg1}
-                    alt="Store Image 1"
+                    alt="Store 1"
                     loading="lazy"
                     className="w-full h-full object-cover rounded-2xl"
                 />
@@ -59,12 +59,12 @@ const Store = () => {
                 ></iframe>
             </div>
 
-            {/* Galerie d'images en bento grid */}
+            {/* Galerie d's en bento grid */}
             <div className="grid grid-cols-1 gap-6 md:grid-cols-12 md:gap-12">
                 <div className="col-span-12 md:col-span-6 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg2}
-                        alt="Store Image 2"
+                        alt="Store 2"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -72,7 +72,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-6 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg5}
-                        alt="Store Image 5"
+                        alt="Store 5"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -80,7 +80,7 @@ const Store = () => {
                 <div className="col-span-6 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg3}
-                        alt="Store Image 3"
+                        alt="Store 3"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -88,7 +88,7 @@ const Store = () => {
                 <div className="col-span-6 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg6}
-                        alt="Store Image 6"
+                        alt="Store 6"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -96,7 +96,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg4}
-                        alt="Store Image 4"
+                        alt="Store 4"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -104,7 +104,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-6 md:row-span-4 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg7}
-                        alt="Store Image 7"
+                        alt="Store 7"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -112,7 +112,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-6 md:row-span-4 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg8}
-                        alt="Store Image 8"
+                        alt="Store 8"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -120,7 +120,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg9}
-                        alt="Store Image 9"
+                        alt="Store 9"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -128,7 +128,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg10}
-                        alt="Store Image 10"
+                        alt="Store 10"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
@@ -136,7 +136,7 @@ const Store = () => {
                 <div className="col-span-12 md:col-span-4 md:row-span-3 overflow-hidden rounded-2xl shadow">
                     <img
                         src={storeImg11}
-                        alt="Store Image 11"
+                        alt="Store 11"
                         loading="lazy"
                         className="w-full h-full object-cover rounded-2xl"
                     />
