@@ -14,7 +14,7 @@ import storeImg11 from '../assets/img/store/store11.jpg';
 
 const Store = () => {
     return (
-        <div className="container mx-auto justify-center grid grid-cols-1 gap-6 px-4 py-6 md:grid-rows-16 md:grid-cols-12 md:gap-12">
+        <div className="container mx-auto justify-center grid grid-cols-1 gap-6 px-4 py-6 md:grid-rows-16 md:grid-cols-12 md:gap-12 mt-16 lg:mt-0">
             {/* Titre de la page */}
             <div className="col-span-1 md:col-span-12 text-center">
                 <h1 className="text-2xl md:text-4xl font-bold">La Boutique</h1>
@@ -38,7 +38,7 @@ const Store = () => {
                     loading="lazy"
                     className="w-48 h-48 object-contain mx-auto"
                 />
-                <p className="text-base md:text-lg text-center font-bold mb-4">32 rue Yves Toudic, 75010 Paris</p>
+                <p className="text-base md:text-lg text-center font-bold mb-8">32 rue Yves Toudic, 75010 Paris</p>
                 <ul className="text-base md:text-lg text-left">
                     <li><strong>Lundi :</strong> 14:00 - 19:00</li>
                     <li><strong>Mardi au samedi :</strong> 11:00 - 14:00 / 15:00 - 19:00</li>
