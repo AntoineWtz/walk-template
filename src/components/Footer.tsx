@@ -74,6 +74,7 @@ const Footer = () => {
                             <li><a href="/mentions-legales" className="text-base font-bold mb-4 hover:text-gray-400">Mentions légales</a></li>
                             <li><a href="/cookies" className="hover:text-gray-400">Gestion des cookies</a></li>
                             <li><a href="/cgv" className="hover:text-gray-400">Conditions générales de vente</a></li>
+                            <li><a href="/dealer" className="hover:text-gray-400">Revendeurs</a></li>
                         </ul>
                     </div>
                 </div>

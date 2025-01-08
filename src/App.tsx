@@ -8,6 +8,8 @@ import Library from './pages/Library';
 import Collaboration from './pages/Collaboration';
 import Store from './pages/Store';
 import About from './pages/About';
+import CGV from './pages/CGV';
+import Dealer from './pages/Dealer';
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/collaboration" element={<Collaboration />} />
         <Route path="/store" element={<Store />} />
         <Route path="/about" element={<About />} />
+        <Route path="/cgv" element={<CGV />} />
+        <Route path="/dealer" element={<Dealer />} />
       </Routes>
       <Footer />
     </Router>
