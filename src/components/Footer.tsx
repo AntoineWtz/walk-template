@@ -8,7 +8,7 @@ const Footer = () => {
             {/* Grid principale */}
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 lg:pt-6 md:gap-12 justify-center">
                 {/* Bloc réseaux sociaux */}
-                <div className="bg-white rounded-xl md:rounded-b-none col-span-12 md:col-span-1 flex flex-row items-center justify-around md:flex-col md:justify-between py-4 px-4 shadow">
+                <div className="bg-white rounded-2xl md:rounded-b-none col-span-12 md:col-span-1 flex flex-row items-center justify-around md:flex-col md:justify-between py-4 px-4 shadow">
                     <a
                         href="https://instagram.com"
                         target="_blank"
@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
 
                 {/* Bloc des liens principaux */}
-                <div className="bg-black rounded-t-xl col-span-12 md:col-span-11 grid grid-cols-1 md:grid-cols-3 gap-6 py-6 px-0 md:px-8 shadow">
+                <div className="bg-black rounded-t-2xl col-span-12 md:col-span-11 grid grid-cols-1 md:grid-cols-3 gap-6 py-6 px-0 md:px-8 shadow">
                     {/* Mode mobile: seulement les titres */}
                     <div className="md:hidden flex flex-row justify-around">
                         <a href="/" className="text-xs font-bold hover:text-gray-400">Walk in Paris</a>

@@ -13,7 +13,7 @@ import { Book, Newspaper, ShoppingBagIcon, StoreIcon } from 'lucide-react';
 
 const Home = () => {
     return (
-        <div className="container mx-auto justify-center grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-12 md:grid-rows-16 md:gap-12">
+        <div className="container mx-auto justify-center grid grid-cols-1 gap-6 px-4 py-6 md:grid-cols-12 md:grid-rows-16 md:gap-12 mt-16 lg:mt-0">
             {/* Première grande image */}
             <div className="overflow-hidden rounded-2xl shadow md:col-span-4 md:row-span-6">
                 <img
@@ -77,19 +77,19 @@ const Home = () => {
 
             {/* Carré avec icônes */}
             <div className="grid grid-cols-2 gap-6 md:gap-12 md:col-span-4 md:row-start-7 md:row-span-4">
-                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-red-50">
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-red-100">
                     <ShoppingBagIcon size="32" />
                     <p className="font-semibold">Shop</p>
                 </div>
-                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-blue-50">
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-blue-100">
                     <Book size="32" />
                     <p className="font-semibold">Lookbook</p>
                 </div>
-                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-green-50">
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-green-100">
                     <Newspaper size="32" />
                     <p className="font-semibold">Library</p>
                 </div>
-                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-orange-50">
+                <div className="flex flex-col items-center justify-evenly bg-white p-4 shadow rounded-2xl bg-orange-100">
                     <StoreIcon size="32" />
                     <p className="font-semibold">Boutique</p>
                 </div>
