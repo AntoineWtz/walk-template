@@ -17,6 +17,7 @@ const About = () => {
                 <img
                     src={aboutImg1}
                     alt="Walk in Paris"
+                    loading='lazy'
                     className="w-full h-full object-cover rounded-2xl"
                 />
             </div>
@@ -45,6 +46,7 @@ const About = () => {
                 <img
                     src={aboutImg4}
                     alt="Walk in Paris Landscape"
+                    loading='lazy'
                     className="w-full h-full object-cover rounded-2xl"
                 />
             </div>
@@ -54,6 +56,7 @@ const About = () => {
                 <img
                     src={aboutImg2}
                     alt="Walk Tape Vol.1"
+                    loading='lazy'
                     className="w-1/3 h-auto rounded-2xl mr-6"
                 />
                 <div>
@@ -70,7 +73,8 @@ const About = () => {
                 <img
                     src={aboutImg3}
                     alt="Enfant Précoce"
-                    className="w-1/3 h-auto rounded-2xl shadow-lg mr-6"
+                    loading='lazy'
+                    className="w-1/3 h-auto rounded-xl shadow-lg mr-6"
                 />
                 <div>
                     <h2 className="text-xl font-bold mb-4">Enfant Précoce</h2>
