@@ -1,4 +1,6 @@
 import React from 'react';
+import storeImg1 from '../assets/img/store/store1.jpg';
+import logo from '../assets/img/logo-walk-monoblack.png';
 
 const CGV: React.FC = () => {
     return (
@@ -120,6 +122,45 @@ const CGV: React.FC = () => {
                     Les présentes conditions sont soumises à la loi française. En cas de litige, compétence est
                     attribuée aux tribunaux de Paris.
                 </p>
+            </div>
+
+            {/* Trois premiers blocs */}
+            {/*  carrée */}
+            <div className="col-span-1 md:col-span-4 md:row-span-4 overflow-hidden rounded-2xl shadow">
+                <img
+                    src={storeImg1}
+                    alt="Store 1"
+                    loading="lazy"
+                    className="w-full h-full object-cover rounded-2xl"
+                />
+            </div>
+            {/* Informations de l'adresse */}
+            <div className="col-span-1 md:col-span-4 md:row-span-4 bg-white p-6 rounded-2xl shadow">
+                <img
+                    src={logo}
+                    alt="Walk in Paris Logo"
+                    loading="lazy"
+                    className="w-48 h-48 object-contain mx-auto"
+                />
+                <p className="text-base md:text-lg text-center font-bold mb-8">32 rue Yves Toudic, 75010 Paris</p>
+                <ul className="text-base md:text-lg text-left">
+                    <li><strong>Lundi :</strong> 14:00 - 19:00</li>
+                    <li><strong>Mardi au samedi :</strong> 11:00 - 14:00 / 15:00 - 19:00</li>
+                    <li><strong>Dimanche :</strong> 14:00 - 19:30</li>
+                </ul>
+            </div>
+            {/* Carte Google Maps */}
+            <div className="col-span-1 md:col-span-4 md:row-span-4 overflow-hidden rounded-2xl shadow">
+                <iframe
+                    title="Walk in Paris - Localisation"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8974195264477!2d2.362491215928524!3d48.86864367928866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1e8fd6edc1%3A0xf74cb33aa902248a!2s32%20Rue%20Yves%20Toudic%2C%2075010%20Paris%2C%20France!5e0!3m2!1sen!2sfr!4v1693938880377!5m2!1sen!2sfr"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    className="rounded-2xl"
+                ></iframe>
             </div>
         </div>
     );

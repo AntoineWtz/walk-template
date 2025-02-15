@@ -143,6 +143,7 @@ const Store = () => {
                 </div>
             </div>
         </div>
+
     );
 };
 
