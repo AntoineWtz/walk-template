@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/walk-template/static/css/main.bd1f4340.css",
+    "main.js": "/walk-template/static/js/main.f22e88a6.js",
+    "static/js/453.97713577.chunk.js": "/walk-template/static/js/453.97713577.chunk.js",
+    "static/media/homepage4.jpg": "/walk-template/static/media/homepage4.c92d274bf131608740c7.jpg",
+    "static/media/about1.jpg": "/walk-template/static/media/about1.4373cf93c7356e44352b.jpg",
+    "static/media/slice3.jpg": "/walk-template/static/media/slice3.d4369378e479b7f4de4a.jpg",
+    "static/media/slice1.jpg": "/walk-template/static/media/slice1.a6c323e7954924cf7036.jpg",
+    "static/media/slice4.jpg": "/walk-template/static/media/slice4.d25257b032b2216e4f86.jpg",
+    "static/media/store9.jpg": "/walk-template/static/media/store9.844f4d14a9c6baabb191.jpg",
+    "static/media/store3.jpg": "/walk-template/static/media/store3.075710f87933f743ce39.jpg",
+    "static/media/store8.jpg": "/walk-template/static/media/store8.ea56cffc9bec9ddcaab4.jpg",
+    "static/media/store10.jpg": "/walk-template/static/media/store10.f730dddca77be99e8643.jpg",
+    "static/media/slice2.jpg": "/walk-template/static/media/slice2.0235a2651ad4dc25c3ba.jpg",
+    "static/media/about4.jpg": "/walk-template/static/media/about4.356e907e2e9a981e3285.jpg",
+    "static/media/store1.jpg": "/walk-template/static/media/store1.05dfeb2774a3271ae7ac.jpg",
+    "static/media/homepage1.jpg": "/walk-template/static/media/homepage1.f46d0f76515edc7dfb01.jpg",
+    "static/media/about2.jpg": "/walk-template/static/media/about2.db41c37d06b195563bef.jpg",
+    "static/media/store11.jpg": "/walk-template/static/media/store11.d6e27e6af6f0a530bb33.jpg",
+    "static/media/about3.jpg": "/walk-template/static/media/about3.76a28ed16a20341160ed.jpg",
+    "static/media/store7.jpg": "/walk-template/static/media/store7.b59b5c8600593af8e039.jpg",
+    "static/media/store2.jpg": "/walk-template/static/media/store2.e73ba07573575ccde16c.jpg",
+    "static/media/homepage3.jpg": "/walk-template/static/media/homepage3.0bfcd09417852e6f7aca.jpg",
+    "static/media/store4.jpg": "/walk-template/static/media/store4.0bfcd09417852e6f7aca.jpg",
+    "static/media/store6.jpg": "/walk-template/static/media/store6.5104abc469f233f85bc3.jpg",
+    "static/media/store5.jpg": "/walk-template/static/media/store5.95dc5905bcc3a75cb725.jpg",
+    "static/media/homepage2.jpg": "/walk-template/static/media/homepage2.928d551c8d79ccfc5234.jpg",
+    "static/media/logo-walk-monoblack.png": "/walk-template/static/media/logo-walk-monoblack.5e4114b15b4b4b4990a1.png",
+    "index.html": "/walk-template/index.html",
+    "main.bd1f4340.css.map": "/walk-template/static/css/main.bd1f4340.css.map",
+    "main.f22e88a6.js.map": "/walk-template/static/js/main.f22e88a6.js.map",
+    "453.97713577.chunk.js.map": "/walk-template/static/js/453.97713577.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd1f4340.css",
+    "static/js/main.f22e88a6.js"
+  ]
+}
