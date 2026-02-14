@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/walk-template/static/css/main.bd1f4340.css",
-    "main.js": "/walk-template/static/js/main.f22e88a6.js",
+    "main.css": "/walk-template/static/css/main.5aff75a9.css",
+    "main.js": "/walk-template/static/js/main.b02dd43a.js",
     "static/js/453.97713577.chunk.js": "/walk-template/static/js/453.97713577.chunk.js",
     "static/media/homepage4.jpg": "/walk-template/static/media/homepage4.c92d274bf131608740c7.jpg",
     "static/media/about1.jpg": "/walk-template/static/media/about1.4373cf93c7356e44352b.jpg",
@@ -28,12 +28,12 @@
     "static/media/homepage2.jpg": "/walk-template/static/media/homepage2.928d551c8d79ccfc5234.jpg",
     "static/media/logo-walk-monoblack.png": "/walk-template/static/media/logo-walk-monoblack.5e4114b15b4b4b4990a1.png",
     "index.html": "/walk-template/index.html",
-    "main.bd1f4340.css.map": "/walk-template/static/css/main.bd1f4340.css.map",
-    "main.f22e88a6.js.map": "/walk-template/static/js/main.f22e88a6.js.map",
+    "main.5aff75a9.css.map": "/walk-template/static/css/main.5aff75a9.css.map",
+    "main.b02dd43a.js.map": "/walk-template/static/js/main.b02dd43a.js.map",
     "453.97713577.chunk.js.map": "/walk-template/static/js/453.97713577.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd1f4340.css",
-    "static/js/main.f22e88a6.js"
+    "static/css/main.5aff75a9.css",
+    "static/js/main.b02dd43a.js"
   ]
 }
