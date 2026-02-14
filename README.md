@@ -1,5 +1,7 @@
 # Walk Template
 
+[![Pages Status](https://github.com/AntoineWtz/walk-template/actions/workflows/pages.yml/badge.svg)](https://github.com/AntoineWtz/walk-template/actions/workflows/pages.yml) [Preview site](https://AntoineWtz.github.io/walk-template/)
+
 Small, opinionated React + TypeScript starter (Create React App + Tailwind).
 
 ## Quick start
