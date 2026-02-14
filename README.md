@@ -18,8 +18,8 @@ A GitHub Actions workflow is included to publish the built `./build` folder to G
 
 ## Notes
 
-- Router utilise `basename` = `process.env.PUBLIC_URL` pour fonctionner correctement sur Pages.
-- Si vous préférez un routeur à hash : remplacez `BrowserRouter` par `HashRouter`.
+- Router utilise maintenant `HashRouter` (URLs avec `#`) pour fonctionner correctement sur GitHub Pages.
+- Si vous préférez un routage sans `#`, on peut repasser à `BrowserRouter` et garder `basename`.
 
 ---
 
