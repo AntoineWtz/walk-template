@@ -10,6 +10,9 @@ import Store from './pages/Store';
 import About from './pages/About';
 import CGV from './pages/CGV';
 import Dealer from './pages/Dealer';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+import ProductsDetails from './pages/ProductsDetails';
 
 const App = () => {
   return (
@@ -18,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/product/:id" element={<ProductsDetails />} />
         <Route path="/lookbook" element={<Lookbook />} />
         <Route path="/library" element={<Library />} />
         <Route path="/collaboration" element={<Collaboration />} />
@@ -25,6 +29,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/cgv" element={<CGV />} />
         <Route path="/dealer" element={<Dealer />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </Router>
