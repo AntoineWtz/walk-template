@@ -29,7 +29,13 @@ const Library: React.FC = () => {
                                 <h3 className="font-semibold">{post.title}</h3>
                                 <p className="text-sm text-gray-600 mt-2">{post.excerpt}</p>
                                 <div className="mt-4">
-                                    <a className="text-sm text-black underline" href="#">Lire l'article</a>
+                                    <button
+                                        type="button"
+                                        className="text-sm text-black underline"
+                                        aria-label={`Lire l'article — ${post.title}`}
+                                    >
+                                        Lire l'article
+                                    </button>
                                 </div>
                             </div>
                         </article>
